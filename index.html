@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <div id="heading">
+            <h1>Cadastro</h1>
+            <img src="programming-guy.png" alt="Programing Guy">
+        </div>
+        <fieldset id="name-surname">
+                <div>
+                    <label class="personal-info">Nome</label>
+                    <input type="text" name="name" id="name" required>
+                </div>
+                <div>
+                    <label class="personal-info">Sobrenome</label>
+                    <input type="text" name="surname" id="surname" required>
+                </div>
+        </fieldset>
+        <div>
+            <label class="personal-info">E-mail</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div id="stack">
+            <label>Qual é a sua stack na programação?</label>
+            <div>
+                <input type="radio" name="frontend" id="frontend" checked>Front-end
+                <input type="radio" name="backend" id="backend">Back-end
+                <input type="radio" name="fullstack" id="fullstack">Full-stack
+            </div>
+        </div>
+        <div id="xp">
+            <label>Qual é o seu nível de experiência?</label>
+            <div>
+                <select id="experience">
+                    <option>Nenhuma</option>
+                    <option>Iniciante</option>
+                    <option>Júnior</option>
+                    <option>Pleno</option>
+                    <option>Sênior</option>
+                </select>
+            </div>
+        </div>
+        <fieldset id="prog-lang">
+            <label>Quais tecnologias você utiliza?</label>
+            <div id="prog-lang-opt">
+                <input type="checkbox" name="prog-lang1" value="HTML">
+                <label for="prog-lang1">HTML</label>
+                <input type="checkbox" name="prog-lang2" value="CSS">
+                <label for="prog-lang2">CSS</label>
+                <input type="checkbox" name="prog-lang3" value="Javascript">
+                <label for="prog-lang3">Javascript</label>
+                <input type="checkbox" name="prog-lang4" value="C#">
+                <label for="prog-lang4">C#</label>
+                <input type="checkbox" name="prog-lang5" value="PHP">
+                <label for="prog-lang5">PHP</label>
+                <input type="checkbox" name="prog-lang6" value="Java">
+                <label for="prog-lang6">Java</label>
+                <input type="checkbox" name="prog-lang7" value="Python">
+                <label for="prog-lang7">Python</label>
+            </div>
+        </fieldset>
+        <button type="submit">Criar Cadastro</button>
+    </form>
+</body>
+</html>

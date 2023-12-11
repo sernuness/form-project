@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,700;1,100;1,200;1,300&family=Montserrat:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: Montserrat, sans-serif;
+    background: linear-gradient(98deg, #C5D1EB, #1F2F16);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-height: 800px;
+    max-width: 1000px;
+    background-color: #ffffff;
+    justify-content: center;
+    padding: 50px;
+    border: #395B50 solid 5px;
+    border-radius: 20px;
+    color: black;
+    box-shadow: 12px 12px 2px 1px #5A7684;
+}
+
+#heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#heading > img {
+    width: 300px;
+    padding-top: 30px;
+}
+
+form > h1 {
+    text-align: center;
+    color: #395B50;
+}
+
+#name-surname {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+    border: none;
+}
+
+.personal-info {
+    font-weight: bold;
+}
+
+#name {
+    border-radius: 20px;
+    height: 20px;
+}
+
+#surname {
+    border-radius: 20px;
+    height: 20px;
+}
+
+#email {
+    border-radius: 20px;
+    height: 20px;
+}
+
+#stack {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+#stack > label {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#xp {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#xp > label {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#experience {
+    height: 35px;
+    width: 100px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#prog-lang {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#prog-lang > label {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#prog-lang-opt {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+button {
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    align-self: center;
+    border-radius: 20px;
+    background-color: #1F2F16;
+    font-weight: bold;
+    color: white;
+}
+
+button:hover {
+    background-color: white;
+    color: #1F2F16;
+    border: 2px solid #1F2F16;
+}
